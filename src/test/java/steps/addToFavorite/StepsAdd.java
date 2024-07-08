@@ -33,7 +33,7 @@ public class StepsAdd extends HelperBase {
         click(linkTehn);
         LOG.info("Перешли в раздел \"Техника\"");
         click(mobileLink);
-        LOG.info("Перешли в раздел \"Мобильные телефоны и аксессуары\"");
+        LOG.info("Открыт раздел \"Мобильные телефоны и аксессуары\"");
 
         click(smartLink);
         LOG.info("Перешли в раздел \"Смартфоны\"");
