@@ -31,7 +31,7 @@ public class StepsAdd extends HelperBase {
     @When("найти в каталоге телефон не дороже {int} рублей")
     public void searchNotebook(int price) {
         click(linkTehn);
-        LOG.info("Открыта ссылка раздел \"Техника\"");
+        LOG.info("Открыт раздел с названием \"Техника\"");
         click(mobileLink);
         LOG.info("Открыт раздел \"Мобильные телефоны и аксессуары\"");
 
