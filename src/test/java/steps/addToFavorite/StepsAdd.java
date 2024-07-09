@@ -68,6 +68,7 @@ public class StepsAdd extends HelperBase {
         boolean comparePrice = actualPrice<expectPrice;
         assertTrue(comparePrice, "Телефон стоит дороже, чем ожидали");
         LOG.info("Цена выбранного телефона в пределах ожидаемой");
+        click($("div > ul > li > div > noindex > div > button"));
 
     }
 
